@@ -8,5 +8,6 @@ www.linkedin.com/in/gregoryurman
 
 
 
-In this project, we will explore Tic-Tac-Toe as a simple AI and reiforcment learning program example. 
+In this project, we will explore Tic-Tac-Toe as a simple AI and reiforcment learning algorithm example. 
+
 
