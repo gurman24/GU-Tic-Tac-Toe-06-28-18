@@ -22,6 +22,7 @@ Additionally, what makes the Tic-Tack-Toe program different than Multi-Armed Ban
 
 TO DIGRESS, this is a very important concept in how Tic-Tac-Toe works as wells how many other concepts in the area of Reinforcement Learning work:
 
+![agent and environment chart](https://user-images.githubusercontent.com/22970879/42120041-d7145168-7bd1-11e8-8f11-42546269f56e.png)
 
 
 The above chart shows how the Agent and the Environment work in a look -- they are interrelated and they create a long, or maybe even infinite, self-updating process through which reinforcement learning takes place. This kind of model does come with some assumptions that can be explored independently if the reader chooses to do so. 
