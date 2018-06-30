@@ -8,6 +8,28 @@ www.linkedin.com/in/gregoryurman
 
 
 
-In this project, we will explore Tic-Tac-Toe as a simple AI and reiforcment learning algorithm example. 
+In this project, we will explore Tic-Tac-Toe as a simple AI and reiforcment learning algorithm example. Unlike "Multi-Armed Bandit," 
+Tic-Tac-Toe is much simpler and involves much less variables. One of the biggest determining factors in the latter is that the number of all possible states for the agent and the environment CAN BE enumerated! (in other words all of it fits into memory). What does that look like? 
+
+1) There are 9 possible positions in the game --> because of 9 cells total
+2) Each of the positions can only have 3 possible values -- nothing, X, or O
+3) So, the number of states in the environment is 3 ^9 (3 to the 9th power) or 19683
+
+
+Additionally, what makes the Tic-Tack-Toe program different than Multi-Armed Bandit is that there can only be TWO POSSIBLE AGENTS (programs or algorithms that make decisions on their own based on their pre-programming -- in other words Machine Learning!) At least one Agent has the be the AI itself. The other Agent can be a human being or another pre-programmed AI Agent. That means you can play Agent against Agent AKA watch the computer play itself. ... One of the interesting things about doing that would be to mess around with the Learning Rate for each Agent to see what difference that makes. ... It is also very important to mention that Tic-Tac-Toe also uses the Epsilon-Greedy algorithm (in other words explore vs. exploit, look that up separately if interested, it's a simple but very important idea). 
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+TO DIGRESS, this is a very important concept in how Tic-Tac-Toe works as wells how many other concepts in the area of Reinforcement Learning work:
+
+
+
+The above chart shows how the Agent and the Environment work in a look -- they are interrelated and they create a long, or maybe even infinite, self-updating process through which reinforcement learning takes place. This kind of model does come with some assumptions that can be explored independently if the reader chooses to do so. 
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
 
 
