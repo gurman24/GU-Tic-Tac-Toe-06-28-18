@@ -24,11 +24,25 @@ TO DIGRESS, this is a very important concept in how Tic-Tac-Toe works as wells h
 
 ![agent and environment chart](https://user-images.githubusercontent.com/22970879/42120041-d7145168-7bd1-11e8-8f11-42546269f56e.png)
 
-
 The above chart shows how the Agent and the Environment work in a look -- they are interrelated and they create a long, or maybe even infinite, self-updating process through which reinforcement learning takes place. This kind of model does come with some assumptions that can be explored independently if the reader chooses to do so. 
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
+Back on topic: 
+
+Since the entire code file is superfluous here to understand the project, I'm adding only a SNIPPET. What this is really showing is just some of the coding it takes to make this kind of Python code also known as Jupyter Notebook code work properly
+
+** insert picture **
+...
+
+What's below is a picture of the moves in sequence the Agent made to beat the human player. Remember that since all the moves are enumerated, it would be very difficult or even impossible to beat the Tic-Tac-Toe agent, but you can play it to a draw
+
+** insert picture **
+...
+
+# Conclusion #
+
+...
 
 
 
