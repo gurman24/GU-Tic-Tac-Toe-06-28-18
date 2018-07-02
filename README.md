@@ -16,7 +16,7 @@ Tic-Tac-Toe is much simpler and involves much less variables. One of the biggest
 3) So, the number of states in the environment is 3 ^9 (3 to the 9th power) or 19683
 
 
-Additionally, what makes the Tic-Tack-Toe program different than Multi-Armed Bandit is that there can only be TWO POSSIBLE AGENTS (programs or algorithms that make decisions on their own based on their pre-programming -- in other words Machine Learning!) At least one Agent has the be the AI itself. The other Agent can be a human being or another pre-programmed AI Agent. That means you can play Agent against Agent AKA watch the computer play itself. ... One of the interesting things about doing that would be to mess around with the Learning Rate for each Agent to see what difference that makes. ... It is also very important to mention that Tic-Tac-Toe also uses the Epsilon-Greedy algorithm (in other words explore vs. exploit, look that up separately if interested, it's a simple but very important idea). 
+Additionally, what makes the Tic-Tack-Toe program different than Multi-Armed Bandit is that there can only be TWO POSSIBLE AGENTS (programs or algorithms that make decisions on their own based on their pre-programming -- in other words Machine Learning!) At least one Agent has the be the AI itself. The other Agent can be a human being or another pre-programmed AI Agent. That means you can play Agent against Agent AKA watch the computer play itself. ... One of the interesting things about doing that would be to mess around with the Learning Rate for each Agent to see what difference that makes. ... It is also very important to mention that Tic-Tac-Toe, like Multi-Armed Bandit, also uses the Epsilon-Greedy algorithm (in other words explore vs. exploit, look that up separately if interested, it's a simple but very important idea). 
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
@@ -30,14 +30,15 @@ The above chart shows how the Agent and the Environment work in a look -- they a
 
 Back on topic: 
 
-Since the entire code file is superfluous here to understand the project, I'm adding only a SNIPPET. What this is really showing is just some of the coding it takes to make this kind of Python code also known as Jupyter Notebook code work properly
+Since the entire code file is superfluous here to understand the project, I'm adding only a SNIPPET. What this is really showing is just some of the coding it takes to make this kind of Python code also known as Jupyter Notebook code work properly:
 
-** insert picture **
+![tic-tac-toe code snippets](https://user-images.githubusercontent.com/22970879/42120292-5779abec-7bd6-11e8-8e1f-ce5503a8d922.png)
+
 ...
 
 What's below is a picture of the moves in sequence the Agent made to beat the human player. Remember that since all the moves are enumerated, it would be very difficult or even impossible to beat the Tic-Tac-Toe agent, but you can play it to a draw
 
-** insert picture **
+![tic-tac-toe moves sequence](https://user-images.githubusercontent.com/22970879/42120298-6e82fd48-7bd6-11e8-9ca7-f44cdd797d98.png)
 ...
 
 # Conclusion #
