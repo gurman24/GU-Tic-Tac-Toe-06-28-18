@@ -3,8 +3,7 @@ by Gregory Urman
 www.linkedin.com/in/gregoryurman
 
 
-
-# GU-Tic-Tac-Toe-06-28-18
+# GU-Tic-Tac-Toe-06-28-18 #
 
 
 
@@ -24,7 +23,7 @@ TO DIGRESS, this is a very important concept in how Tic-Tac-Toe works as wells h
 
 ![agent and environment chart](https://user-images.githubusercontent.com/22970879/42120041-d7145168-7bd1-11e8-8f11-42546269f56e.png)
 
-The above chart shows how the Agent and the Environment work in a look -- they are interrelated and they create a long, or maybe even infinite, self-updating process through which reinforcement learning takes place. This kind of model does come with some assumptions that can be explored independently if the reader chooses to do so. 
+The above chart shows how the Agent and the Environment work in a loop -- they are interrelated and they create a long, or maybe even infinite, self-updating process through which reinforcement learning takes place. This kind of model does come with some assumptions that can be explored independently if the reader chooses to do so. 
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
@@ -34,18 +33,26 @@ Since the entire code file is superfluous here to understand the project, I'm ad
 
 ![tic-tac-toe code snippets](https://user-images.githubusercontent.com/22970879/42120292-5779abec-7bd6-11e8-8e1f-ce5503a8d922.png)
 
-...
 
-What's below is a picture of the moves in sequence the Agent made to beat the human player. Remember that since all the moves are enumerated, it would be very difficult or even impossible to beat the Tic-Tac-Toe agent, but you can play it to a draw
+
+What's below is a picture of the moves in sequence the Agent made to beat the human player. Remember that since all the moves are enumerated, it would be very difficult or even impossible to beat the Tic-Tac-Toe agent, but you CAN likely play it to a draw
 
 ![tic-tac-toe moves sequence](https://user-images.githubusercontent.com/22970879/42120298-6e82fd48-7bd6-11e8-9ca7-f44cdd797d98.png)
-...
+
 
 # Conclusion #
 
-...
+1) The Tic-Tac-Toe program studied here is another example of a reiforcment learning algorithm.
+
+2) Unlike more complicated games such as Chess, Tic-Tac-Toe has only so many variations and possible moves and it can be enumerated (all the possibilities can be stored within the computer memory)
+
+3) Based on the above, it is much easier to train the program to beat a human being. Therefore, it is unlikely that once the program is fully functional a human being can win against it, however it the program CAN be played to a draw
+
+4) Lastly, like many other programs in Reinforcement Learning, Tic-Tac-Toe uses the Environment-Agent update method/loop (see above) to have the program update itself and guide its own actions. 
 
 
+Thank you for reading this blog and I hope you found it intriguing and enjoyable :)
 
 
-
+Gregory Urman
+www.linkedin.com/in/gregoryurman
