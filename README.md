@@ -53,8 +53,8 @@ What's below is a picture of the moves in sequence the Agent made to beat the hu
 
 Thank you for reading this blog and I hope you found it intriguing and enjoyable :)
 
-...
-...
+<br/>
+<br/>
 
 Gregory Urman
 
